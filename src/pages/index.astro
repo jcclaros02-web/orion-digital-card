@@ -1,0 +1,29 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Hero from "../components/Hero.astro";
+import ContactButton from "../components/ContactButton.astro";
+import { personas } from "../data/personas";
+import ContactCard from "../components/ContactCard.jsx";
+import ShareButton from "../components/ShareButton.jsx";
+import App from "../components/App.jsx";
+---
+
+<MainLayout title="Dámaris & Katerin">
+
+<div class="cards">
+
+<section class="card">
+
+  <Hero
+    nombre="Dámaris & Katerin"
+    congregacion={personas[0].congregacion}
+    foto={personas[0].foto}
+  />
+
+  <App client:load />
+
+</section>
+
+</div>
+
+</MainLayout>

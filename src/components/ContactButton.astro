@@ -1,0 +1,47 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  tipo: string;
+  icono: string;
+  titulo: string;
+  valor: string;
+  enlace: string;
+}
+
+const {
+  tipo,
+  icono,
+  titulo,
+  valor,
+  enlace
+} = Astro.props;
+
+let color = "#ece5db";
+
+if (tipo === "whatsapp") {
+  color = "#DCFCE7";
+} else if (tipo === "instagram") {
+  color = "#F5D0FE";
+} else if (tipo === "email") {
+  color = "#FEE2E2";
+}
+---
+
+<a href={enlace} class="contact-button" target="_blank">
+
+    <div class="icon" style={`background:${color};`}>
+
+        <Icon name={icono} size={28} />
+
+    </div>
+
+    <div class="info">
+
+        <h3>{titulo}</h3>
+
+        <p>{valor}</p>
+
+    </div>
+
+</a>
