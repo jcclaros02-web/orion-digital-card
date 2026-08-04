@@ -36,7 +36,19 @@ export default function App() {
         textos={textos?.[idioma]}
       />
 
+      <footer className="signature">
+
+  <p>{textos?.[idioma]?.desarrolladoPor}</p>
+
+  <strong>Juan Carlos Claros</strong>
+
+  <p>{textos?.[idioma]?.impulsadoPor}</p>
+
+</footer>
+
     </>
+
+    
 
   );
 

@@ -429,3 +429,41 @@ h1{
     opacity:1;
 
 }
+
+.signature{
+
+    border-top:1px solid #ece5db;
+
+    padding-top:12px;
+
+    text-align:center;
+
+    margin:36px 18px 12px;
+
+    color:#8a8a8a;
+
+    font-size:12px;
+
+    line-height:1.5;
+
+}
+
+.signature p{
+
+    margin:0;
+
+}
+
+.signature strong{
+
+    display:block;
+
+    margin:4px 0;
+
+    color:#6d5642;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}

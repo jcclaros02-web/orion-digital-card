@@ -5,7 +5,10 @@ export const textos = {
     verContacto: "Ver contacto",
     ocultarContacto: "Ocultar contacto",
     compartir: "Compartir",
-    correo: "Correo"
+    correo: "Correo",
+
+    desarrolladoPor: "Diseñado y desarrollado por",
+    impulsadoPor: "Powered by Orion"
 
   },
 
@@ -14,7 +17,10 @@ export const textos = {
     verContacto: "View Contact",
     ocultarContacto: "Hide Contact",
     compartir: "Share",
-    correo: "Email"
+    correo: "Email",
+
+    desarrolladoPor: "Designed & Developed by",
+    impulsadoPor: "Powered by Orion"
 
   }
 
